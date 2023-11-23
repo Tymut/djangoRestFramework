@@ -2,3 +2,4 @@ env/
 backend/db.sqlite3
 backend/api/__pycache__/
 backend/cfehome/__pycache__/
+backend/products/__pycache__/
