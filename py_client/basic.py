@@ -6,6 +6,7 @@ import requests
 endpoint = "http://127.0.0.1:8000/api/"
 
 get_reponse = requests.get(endpoint, params={"product_id": 123}) # HTTP Request
+# print(get_reponse.headers)
 # print(get_reponse.text) # Print raw text response
 # print(get_reponse.status_code)
 
